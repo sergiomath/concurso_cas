@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
-
-
+import openpyxl
+# Load the data 
 file_path = 'historico.xlsx'
 historico_df = pd.read_excel(file_path, sheet_name='Historico')
 
